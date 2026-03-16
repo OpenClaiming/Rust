@@ -1,0 +1,11 @@
+[package]
+name = "openclaiming"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1"
+sha2 = "0.10"
+p256 = { version = "0.13", features=["ecdsa"] }
+base64 = "0.21"
+jcs = "0.1"
